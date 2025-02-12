@@ -36,22 +36,13 @@ npm install
 
 ## 📝 Configuration
 
-1. Create a `questions.json` file with your questions:
-```json
-[
-  "What is blockchain?",
-  "How does crypto mining work?",
-  "What are smart contracts?"
-]
-```
-
-2. (Optional) Create a `proxies.txt` file for proxy support:
+1. (Optional) Create a `proxies.txt` file for proxy support:
 ```
 http://user:pass@host:port
 socks5://user:pass@host:port
 ```
 
-3. Create a `wallets.txt` file for multiple wallets:
+2. Create a `wallets.txt` file for multiple wallets:
 ```
 0x1234567890abcdef1234567890abcdef12345678
 0xabcdef1234567890abcdef1234567890abcdef12
