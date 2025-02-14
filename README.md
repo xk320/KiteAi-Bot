@@ -1,82 +1,53 @@
-# Kite AI Auto-Bot
+Kite AI Bot  自动交互机器人。
 
-An automated interaction bot for Kite AI platform with multi-wallet and proxy support.
+1、注册
+[https://testnet.gokite.ai/?r=kxsQ3byj](https://testnet.gokite.ai?r=TdwTJfRZ)
 
-## Register 
+2、功能
+多个钱包支持（手动输入或基于文件）
+代理支持（http/https/socks）
+利率限制和重试机制
+多个AI代理相互作用
+自动问题选择
 
-- https://testnet.gokite.ai/?r=kxsQ3byj 
+3、先决条件
+Node.js (v16 or higher)  node.js（v16或更高）、npm
 
-## 🌟 Features
-
-- Multiple wallet support (manual input or file-based)
-- Proxy support (HTTP/HTTPS/SOCKS)
-- Rate limiting and retry mechanisms
-- Multiple AI agents interaction
-- Automatic question selection
-- Usage reporting
-- Graceful error handling
-
-## 📋 Prerequisites
-
-- Node.js (v16 or higher)
-- npm (Node Package Manager)
-
-## 🛠️ Installation
-
-1. Clone the repository:
-```bash
+4、安装
+Clone the repository:  克隆存储库：
 git clone https://github.com/airdropinsiders/KiteAi-Auto-Bot.git
-cd KiteAi-Auto-Bot
-```
 
-2. Install dependencies:
-```bash
+5、安装依赖项：
+cd KiteAi-Auto-Bot 
 npm install
-```
 
-## 📝 Configuration
-
-1. (Optional) Create a `proxies.txt` file for proxy support:
-```
+6、配置
+创建一个proxies.txt文件以进行代理支持：
 http://user:pass@host:port
 socks5://user:pass@host:port
-```
 
-2. Create a `wallets.txt` file for multiple wallets:
-```
-0x1234567890abcdef1234567890abcdef12345678
-0xabcdef1234567890abcdef1234567890abcdef12
-```
+7、为多个钱包创建一个wallets.txt文件：
+0xxxxx
+0xxxxx
 
-## 🚀 Usage
+8、运行机器人：
 
-Run the bot:
-```bash
 npm run start
-```
 
-The bot will prompt you to:
-1. Choose connection mode (Direct/Proxy)
-2. Choose wallet input mode (Manual/File)
-3. Enter wallet address (if manual mode)
+机器人将提示您：
 
-## ⚙️ Configuration Options
+Choose connection mode (Direct/Proxy)
+选择连接模式（直接/代理）
 
-You can modify the following settings in `index.js`:
+Choose wallet input mode (Manual/File)
+选择钱包输入模式（手册/文件）
 
-- `rateLimitConfig`: Adjust rate limiting parameters
-- `agents`: Modify available AI agents
-- `intervalBetweenCycles`: Change delay between interaction cycles
+Enter wallet address (if manual mode)
+输入钱包地址（如果手动模式）
 
-## 📢 Support
-
-Join our Telegram channel for updates and support:
-https://t.me/AirdropInsiderID
-
-## ⚠️ Disclaimer
-
-This bot is for educational purposes only. Use at your own risk and ensure compliance with Kite AI's terms of service.
-
-## 📜 License
-
-MIT License - feel free to use and modify for your own purposes.
+9配置选项
+您可以在index.js中修改以下设置：
+agents ：修改可用的AI代理商
+intervalBetweenCycles ：相互作用周期之间的更改延迟
+10、免责声明
+该机器人仅用于教育目的。出于自己的风险使用，并确保符合风筝AI的服务条款。
