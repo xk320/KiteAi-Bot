@@ -15,10 +15,10 @@ Node.js (v16 or higher)  node.js（v16或更高）、npm
 
 4、安装
 Clone the repository:  克隆存储库：
-git clone https://github.com/airdropinsiders/KiteAi-Auto-Bot.git
+git https://github.com/xk320/KiteAi-Bot.git
 
 5、安装依赖项：
-cd KiteAi-Auto-Bot 
+cd KiteAi-Bot
 npm install
 
 6、配置
